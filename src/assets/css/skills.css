@@ -11,7 +11,9 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
+  
 
 .skills__item img {
     width: 50px;
