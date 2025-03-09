@@ -23,7 +23,6 @@
     <link rel="stylesheet" href="./src/assets/css/intro.css">
     <link rel="stylesheet" href="./src/assets/css/skills.css">
     <link rel="stylesheet" href="./src/assets/css/projects.css">
-    <link rel="stylesheet" href="./src/assets/css/experience.css">
     <link rel="stylesheet" href="./src/assets/css/footer.css">
     <link rel="stylesheet" href="./src/assets/css/contact.css">
     <link rel="stylesheet" href="./src/assets/css/responsive.css">
@@ -74,6 +73,7 @@
                     <li class="skills__item"><img src="./src/assets/icons/skills/postman.png" alt="Postman"></li>
                     <li class="skills__item"><img src="./src/assets/icons/skills/mongodb.png" alt="MongoDB"></li>
                     <li class="skills__item"><img src="./src/assets/icons/skills/bootstrap.png" alt="Bootstrap"></li>
+                    <li class="skills__item"><img src="./src/assets/icons/skills/git.png" alt="Git"></li>
                     <li class="skills__item"><img src="./src/assets/icons/skills/figma.png" alt="Figma"></li>
                 </ul>
 
@@ -84,10 +84,12 @@
             <!-- Projects Section -->
             <section class="projects">
                 <h3 class="projects__title">Projetos</h3>
-                <p class="projects__description">Aqui você pode ver os projetos que desenvolvi. Estou constantemente
-                    trabalhando em novas soluções.</p>
-                <!-- Adicionar projetos via JS ou API do GitHub -->
-            </section>
+                <p class="projects__description">Aqui você pode ver os projetos que desenvolvi. Estou constantemente trabalhando em novas soluções.</p>
+                <div class="projects__list">
+                  <!-- Os cards dos projetos serão renderizados aqui -->
+                </div>
+              </section>
+              
         </main>
 
         <!-- Footer -->
@@ -111,9 +113,11 @@
                 </div>
             </section>
 
-            
+
         </footer>
     </div>
+
+    <script src="./src/assets/js/api.js"></script>
 </body>
 
 </html>

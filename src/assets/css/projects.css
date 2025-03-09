@@ -2,4 +2,56 @@
 .projects__description {
     color: #bbb;
     font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.projects__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.projects__item {
+    background: #1a1a1a;
+    border-radius: 8px;
+    padding: 16px;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects__item:hover {
+    transform: translateY(-5px);
+}
+
+.projects__name {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.projects__item a {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.projects__item a:hover {
+    text-decoration: underline;
+}
+
+.projects__date {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-top: 10px;
+    user-select: none;
+}
+
+.projects__error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
 }
