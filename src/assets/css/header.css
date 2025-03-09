@@ -1,0 +1,27 @@
+/* HEADER */
+.nav {
+    max-width: 100vw;
+    background-color: #222;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    gap: 30px;
+}
+
+.nav__item a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: color 0.3s ease;
+}
+
+.nav__item a:hover {
+    color: #1373D1;
+}

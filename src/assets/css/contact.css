@@ -1,0 +1,40 @@
+/* SEÇÃO: CONTATO */
+.contact {
+    max-width: 810px;
+    margin: 0 auto;
+}
+
+.contact__title {
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.contact__details {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.contact__email {
+    font-size: 18px;
+    color: #1373D1;
+    transition: color 0.3s ease;
+}
+
+.contact__email:hover {
+    color: #fff;
+}
+
+.social-media__list {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-media__icon {
+    width: 30px;
+    transition: .5s ease;
+}
+
+.social-media__icon:hover {
+    transform: scale(1.1);
+}
