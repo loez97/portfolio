@@ -10,10 +10,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+    gap: 10px;
 }
-  
+
 
 .skills__item img {
     width: 50px;
