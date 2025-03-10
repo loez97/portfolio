@@ -2,15 +2,18 @@
 .skills__title {
     font-size: 16px;
     letter-spacing: 10px;
-    font-weight: 600px;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
 .skills__list {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 
